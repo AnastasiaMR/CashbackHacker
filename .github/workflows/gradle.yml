@@ -10,10 +10,7 @@ on:
   - TestNG
   - junit4
   pull_request:
-    branches: 
-  - TestNG
-  - junit4
-  - master
+    branches: [ master ]
 
 jobs:
   build:
