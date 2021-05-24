@@ -5,9 +5,15 @@ name: Java CI with Gradle
 
 on:
   push:
-  watch: [ master ] 
+  watch: 
+  - master
+  - TestNG
+  - junit4
   pull_request:
-    branches: [ master ]
+    branches: 
+  - TestNG
+  - junit4
+  - master
 
 jobs:
   build:
